@@ -3,6 +3,7 @@ Atividade de pseudocódigos
 
 **Nome:** Bianca Vitoria Chagas da Silva  
 **Disciplina:** Algoritmos e Lógica de Programação  
+**RA:** 00363821
 
 ## Descrição
 Este repositório contém pseudocódigos desenvolvidos como atividade prática da disciplina.
