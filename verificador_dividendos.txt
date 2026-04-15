@@ -1,0 +1,19 @@
+Algoritmo "Verificador_Dividendos"
+
+Var
+   dy: real
+
+Inicio
+   escreva("Digite o valor do Dividend Yield (DY): ")
+   leia(dy)
+
+   se dy > 6 entao
+      escreva("Estrategia de Renda Passiva OK")
+   senao
+      se (dy >= 4) e (dy <= 6) entao
+         escreva("Atencao: Rendimento Medio")
+      senao
+         escreva("Rendimento Baixo")
+      fimse
+   fimse
+Fimalgoritmo
