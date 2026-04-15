@@ -1,0 +1,18 @@
+Algoritmo "Imposto_Importacao"
+
+Var
+   valorProduto: real
+   imposto: real
+
+Inicio
+   escreva("Digite o valor do produto em dolares: ")
+   leia(valorProduto)
+
+   se valorProduto > 50 entao
+      imposto <- valorProduto * 0.60
+   senao
+      imposto <- valorProduto * 0.17
+   fimse
+
+   escreva("Valor final do imposto: US$ ", imposto)
+Fimalgoritmo
