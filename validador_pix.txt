@@ -1,0 +1,27 @@
+Algoritmo "Validador_Pix"
+
+Var
+   valorPix: real
+   saldo: real
+   chequeEspecial: real
+
+Inicio
+   escreva("Digite o valor da transferencia: ")
+   leia(valorPix)
+
+   escreva("Digite o saldo atual: ")
+   leia(saldo)
+
+   se saldo >= valorPix entao
+      escreva("Transacao realizada")
+   senao
+      escreva("Digite o valor do cheque especial disponivel: ")
+      leia(chequeEspecial)
+
+      se (saldo + chequeEspecial) >= valorPix entao
+         escreva("Transacao via Cheque Especial")
+      senao
+         escreva("Saldo Insuficiente")
+      fimse
+   fimse
+Fimalgoritmo
