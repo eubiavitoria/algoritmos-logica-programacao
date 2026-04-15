@@ -1,5 +1,5 @@
 # algoritmos-logica-programacao
-Atividade de pseudocódigos
+**Atividade de Pseudocódigos**
 
 **Nome:** Bianca Vitoria Chagas da Silva  
 **Disciplina:** Algoritmos e Lógica de Programação  
