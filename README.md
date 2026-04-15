@@ -20,3 +20,7 @@ Este repositório contém pseudocódigos desenvolvidos como atividade prática d
 - Análise de Criptoativos
 - Calculadora de Imposto de Importação
 - Ranking de Streaming
+
+## Estrutura do Repositório
+
+Cada arquivo .txt representa um algoritmo em pseudocódigo referente a um exercício proposto na atividade.
