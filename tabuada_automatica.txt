@@ -1,0 +1,15 @@
+algoritmo "tabuada_automatica"
+
+var
+  num, i: inteiro
+
+inicio
+
+  escreval("Qual número de (1 a 10) você quer ver a tabuada?")
+  leia(num)
+
+  para i de 1 ate 10 faca
+    escreval(num, " x ", i, " = ", num * i)
+  fimpara
+
+fimalgoritmo
