@@ -1,0 +1,29 @@
+algoritmo "proximo_dia"
+
+var
+  hoje: caractere
+
+inicio
+
+  escreval("Que dia é hoje? (ex: segunda, terca...)")
+  leia(hoje)
+
+  escolha hoje
+    caso "domingo"
+      escreval ("Amanhã é segunda-feira!")
+    caso "segunda"
+      escreval ("Amanhã é terça-feira!")
+    caso "terca"
+      escreval ("Amanhã é quarta-feira!")
+    caso "quarta"
+      escreval ("Amanhã é quinta-feira!")
+    caso "quinta"
+      escreval ("Amanhã é sexta-feira!")
+    caso "sexta"
+      escreval ("Amanhã é sábado!")
+    caso "sabado"
+      escreval ("Amanhã é domingo!")
+    outrocaso
+      escreval ("Não entendi o dia. Escreva sem acento, tá?")
+  fimescolha
+fimalgoritmo
